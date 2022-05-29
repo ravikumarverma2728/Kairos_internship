@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'pf_handbook_proregular';
+  src: url("../fonts/pfhandbookpro-regular.eot");
+  src: url("../fonts/pfhandbookpro-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/pfhandbookpro-regular.woff2") format("woff2"), url("../fonts/pfhandbookpro-regular.woff") format("woff"), url("../fonts/pfhandbookpro-regular.svg#pf_handbook_proregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'pf_handbook_probold';
+  src: url("../fonts/pfhandbookpro-bold.eot");
+  src: url("../fonts/pfhandbookpro-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/pfhandbookpro-bold.woff2") format("woff2"), url("../fonts/pfhandbookpro-bold.woff") format("woff"), url("../fonts/pfhandbookpro-bold.svg#pf_handbook_probold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'pf_encore_sans_probold';
+  src: url("../fonts/pfencoresanspro-bold.eot");
+  src: url("../fonts/pfencoresanspro-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/pfencoresanspro-bold.woff2") format("woff2"), url("../fonts/pfencoresanspro-bold.woff") format("woff"), url("../fonts/pfencoresanspro-bold.svg#pf_encore_sans_probold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'pf_encore_sans_proregular';
+  src: url("../fonts/pfencoresanspro-reg.eot");
+  src: url("../fonts/pfencoresanspro-reg.eot?#iefix") format("embedded-opentype"), url("../fonts/pfencoresanspro-reg.woff2") format("woff2"), url("../fonts/pfencoresanspro-reg.woff") format("woff"), url("../fonts/pfencoresanspro-reg.svg#pf_encore_sans_proregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }

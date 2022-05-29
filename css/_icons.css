@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "untitled-font-12";
+  src: url("../fonts/untitled-font-12.eot");
+  src: url("../fonts/untitled-font-12.eot?#iefix") format("embedded-opentype"), url("../fonts/untitled-font-12.woff") format("woff"), url("../fonts/untitled-font-12.ttf") format("truetype"), url("../fonts/untitled-font-12.svg#untitled-font-12") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.abcicons:before {
+  font-family: "untitled-font-12" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.abcicons:before,
+.abcicons:before {
+  font-family: "untitled-font-12" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-icon-alert:before {
+  content: "\61"; }
+
+.icon-icon-arrow-left:before {
+  content: "\62"; }
+
+.icon-icon-arrow-right:before {
+  content: "\63"; }
+
+.icon-icon-chevron-down:before {
+  content: "\64"; }
+
+.icon-icon-chevron-up:before {
+  content: "\65"; }
+
+.icon-icon-close:before {
+  content: "\66"; }
+
+.icon-icon-login:before {
+  content: "\67"; }
+
+.icon-icon-menu:before {
+  content: "\68"; }
+
+.icon-icon-minus:before {
+  content: "\69"; }
+
+.icon-icon-plus:before {
+  content: "\6a"; }
+
+.icon-icon-search:before {
+  content: "\6b"; }
+
+.icon-icon-tick:before {
+  content: "\6c"; }
+
+.icon-icon-tick-success {
+  content: "\6c";
+  color: 1f874c; }
+
+@font-face {
+  font-family: "untitled-font-2";
+  src: url("../fonts/untitled-font-2.eot");
+  src: url("../fonts/untitled-font-2.eot?#iefix") format("embedded-opentype"), url("../fonts/untitled-font-2.woff") format("woff"), url("../fonts/untitled-font-2.ttf") format("truetype"), url("../fonts/untitled-font-2.svg#untitled-font-2") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.abcicons:before {
+  font-family: "untitled-font-2" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.abcicons:before,
+.abcicons:before {
+  font-family: "untitled-font-2" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-crop:before {
+  content: "\7a"; }
+
+.icon-icon-alert-1:before {
+  content: "\70"; }
+
+.icon-icon-info-1:before {
+  content: "\71"; }
+
+.icon-icon-password-hidden-1:before {
+  content: "\73"; }
+
+.icon-icon-password-visible-1:before {
+  content: "\74"; }

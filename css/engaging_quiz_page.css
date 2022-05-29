@@ -1,0 +1,128 @@
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.main-container-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    border : 2px solid red;
+}
+.first-text-col{
+    position: relative;
+    padding-left: 5rem;
+    padding-top: 6rem;
+    
+}
+.image-col{
+    
+}
+.first-component-row{
+    background-color: #D9DCCB;
+    border-radius: 0.6rem;
+}
+.rate-overall-row{
+    margin-top: 4rem;
+}
+.rate-overall{
+    padding: 0;
+    font-weight: bolder;
+    font-size: 2.2rem;
+}
+.rating{
+    text-align: end;
+    padding-right: 0;
+    font-weight: 550;
+    font-size: 2rem;
+    color: #3E593C;
+}
+.second-component-row{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.second-component-main-col{
+    border : 2px solid blue;
+    margin-top: 3rem;
+}
+img{
+    width: 32rem;
+    height: 27rem;
+    position: relative;
+    left: -12rem;
+   
+}
+.text1{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.text2{
+    color: #3E593C;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+.question-text{
+    font-weight: bolder;
+    font-size: 2.2rem;
+    padding-left: 0;
+}
+.progress-bar-col{
+    
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem;
+}
+.progress{
+    height: 0.3rem;
+    margin: 0;
+   
+}
+
+ 
+ 
+ .options1-row{
+      margin-top: 2rem;
+      border: 2px solid red;
+  }
+  
+  #opt2{
+    position: relative;
+    left: 12rem;
+  }
+  .option-col{
+      border: 0.1rem solid #CDCECE;
+      border-radius: 4rem;
+      height: 4.4rem;
+      
+  }
+
+input{
+    width: 2.5rem;
+    height: 2.7rem;
+    color: #3E593C;
+    background-color: #3E593C;
+    
+}
+label{
+    
+    height: 3rem; 
+    font-size: 1.5rem;
+    font-weight: bolder;
+    position: relative;
+    top: 0.6rem;
+    left: -2rem;
+}
+#radio-one{
+    color: #3E593C;
+}
+  
+
+
