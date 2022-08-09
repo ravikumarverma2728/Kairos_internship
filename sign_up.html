@@ -40,18 +40,18 @@
     <div class="container-fluid">
      
        <div class="row card-container-row ">
-          <div class="col-sm-8 card-container ">
+          <div class="  col-sm-8  card-container ">
               
                 
                       <div class="row temp  ">
                         <div class="panel panel-default">
-                            <div class="col-sm-6 left-side  ">
+                            <div class="col-sm-6 col-xs-12 left-side  ">
                               
                                 <div class="row">
-                                  <div  class="col-sm-8 ">
+                                  <div  class="col-sm-8 col-xs-4 ">
                                     <img src="image/City girl-amico.png" class="avatar">
                                   </div>
-                                  <div class="col-sm-4 text">
+                                  <div class="col-sm-4 col-xs-0 desktop-view-text-row text">
                                     <div class="first-word">
                                       Start
                                     </div>
@@ -68,21 +68,27 @@
                                       click
                                     </div>
                                   </div>
+                                  <div class="row mobile-view-text-row">
+                                    <div class=" col-sm-0 col-xs-7 a text-mob ">
+                                      Start your journey <br> 
+                                      by one click
+                                    </div>
+                                  </div>
               
                                 </div>
               
               
                             </div>
-                            <div class="col-sm-6 right-side  ">
+                            <div class="col-sm-6 col-xs-12 right-side  ">
                               <div class="create_account" >
                                 Create Account
                               </div>
                               <form>
                                  <div class="row input-row ">
-                                     <div class="col-sm-6">
+                                     <div class="col-sm-6 col-xs-12">
                                         <input id="inp1"  type="text" name="" placeholder="First Name">
                                      </div>
-                                     <div class="col-sm-6">
+                                     <div class="col-sm-6 col-xs-12">
                                         <input id="inp2"  type="text" name="" placeholder="Last name">
                                     </div>
                                  </div>
@@ -92,14 +98,46 @@
                                   <div>
                                     <input id="inp4"  type="Password" name="" placeholder="Password">
                                   </div>
-                                   <div>
-                                    <input type="checkbox" name="check">
-                                   </div> 
+                                  <div class="row input-row temp">
+                                      <div class="col-sm-1 col-xs-1 ">
+                                        <input type="radio" id="radio-one" name="switch-one" />
+                                      </div>
+                                      <div class="col-sm-11 col-xs-0 check-box-text check-box-text-desktop">
+                                          Creating An Account Means You're Okay With Our Terms Of Service,Privacy Policy,And<br>
+                                          Our Default Notification Settings. 
+                                      </div>
+                                      <div class="col-sm-0 col-xs-11 check-box-text check-box-text-mob">
+                                        Creating An Account Means You're Okay With Our Terms Of Service,<br>
+                                        Privacy Policy,And Our Default Notification Settings.
+                                         
+                                    </div>
+                                  </div> 
                               </form>
                               
                               <div class="row btn-row">
-                                <div class="col-sm-6 ">
-                                    <button id="btn1" type="button" class="btn ">Create Account</button>
+                                <div class="col-sm-6 col-xs-12">
+                                    <button id="btn1" type="button" class="btn" onclick="togglePopup()" >Create Account</button>
+                                    <div class="popup" id="popup-1">
+                                      <div class="overlay"></div>
+                                      <div class="content">
+                                        <div class="close-btn" onclick="togglePopup()">&times;</div>
+                                          
+                                            <div class="row verify-text-row">
+                                              <div class="col-sm-12 verify-text-col"> 
+                                                Verify Email Id
+                                              </div>
+                                            </div>
+                                            <div class="row verify-button-row">
+                                              <div class="col-sm-7 col-xs-10 verify-button-col"> 
+                                                
+                                                <a id="btn2" href="otp_page.html" class="btn ">Verify</a>
+                                              </div>
+                                            </div>
+                                          
+                                      </div>
+                                    </div>
+                          
+                                    <!--Modal End-->
                                 </div>
                               </div>
                               
@@ -113,6 +151,10 @@
        </div>
 
     </div>
-
+<script>
+  function togglePopup() {
+  document.getElementById("popup-1").classList.toggle("active");
+}
+</script>
 </body>
 </html>

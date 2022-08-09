@@ -1,0 +1,1343 @@
+@font-face {
+    font-family: 'pf handbook pro';
+    src: url("/fonts/PFHandbookPro-Regular_35440.ttf");
+}
+
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'pf handbook pro';
+    letter-spacing: 0.1rem;
+}
+.nav-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.main-container-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container-col{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    width: 73%;
+}
+#first-text{
+   font-weight: 500;
+   font-size: 2.5rem; 
+}
+#second-text{
+    font-weight: bolder;
+    font-size: 2.5rem; 
+ }
+ #third-text{
+    font-weight: bolder;
+    font-size: 2.5rem; 
+    color: #3E593C; 
+    margin-top: 3.4rem;
+ }
+ 
+ .first-component-row{
+     background-color: #D9DCCB;
+     border-radius: 0.6rem;
+     height: 22rem;
+ }
+ .first-component-text-col{
+    position: relative;
+    padding-left: 4.5rem;
+    padding-top: 4rem;
+ }
+ img{
+    width: 28rem;
+    height: 23rem;
+    position: relative;
+    left: 1rem;  
+}
+#fourth-text{
+    font-weight: bolder;
+    font-size: 2.5rem; 
+ }
+ #fifth-text{
+     font-weight: bolder;
+     font-size: 2.5rem; 
+  }
+  #sixth-text{
+     font-weight: 500;
+     font-size: 2rem; 
+     color: #3E593C;
+     margin-top: 3rem;
+  }
+    .progress-row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .chart span {
+      position: relative;
+      top: 11.10rem;
+      left: 5.3rem;
+      color:#3E593C ;
+      text-align:center;
+      font-size:4rem;
+      font-weight:600;
+      transition: all .1s ease-out .2s;
+    }
+    .chart2 span {
+        position: relative;
+        top: 11.10rem;
+        left: 5.3rem;
+        color:#3E593C ;
+        text-align:center;
+        font-size:4rem;
+        font-weight:600;
+        transition: all .1s ease-out .2s;
+      }
+    .progress-col{
+        padding-bottom: 2rem;
+        border: 1px  white;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 4px #D9DCCB;
+        width: 32%
+    }
+    .card2{
+        margin-left: 1.6rem;
+    }
+    .card3{
+        margin-left: 1.6rem;
+    }
+    .second-component-main-row{
+        margin-top: 4rem;
+    }
+    .progress-text-row1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-top: 1rem;  
+    }
+    .progress-text-col1{
+        text-align: center;
+        font-size: 2.2rem;  
+        font-weight: bolder;
+        letter-spacing: 0.1rem;
+    }
+    .progress-text-row2{
+        display: flex;
+        align-items: center;
+        justify-content: center;      
+    }
+    .progress-text-col2{
+        text-align: center;
+        font-size: 1.3rem;  
+        font-weight: 500;
+        color: #3E593C ;
+        margin-top: 1.2rem;
+    }
+    .last-component-row{
+        background-color: #D9DCCB;
+        margin-top: 7rem;
+        border-radius: 0.6rem;
+        height: 22rem;
+    }
+    .last-component-text-col{
+     position: relative;
+     padding-left: 4rem;
+     padding-top: 8rem;
+    }
+    #arrow{
+        
+        width: 2rem;
+        font-weight: bolder;
+        margin-top: 10rem;
+    }
+    .btn-row{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin-top: 2.5rem;
+    }
+   
+    .btn{
+        width: 100%;
+        border :0.15rem solid #3E593C ;
+        color: #3E593C ;
+        font-size: large;
+        background-color: white;
+        font-weight: bolder;
+    }
+    .btn-col{
+        width: 24%;
+    }
+    #btn2{
+        background-color:#3E593C ;
+        color:white; 
+    }
+    .btn:hover{
+       cursor: pointer;
+    }
+@media (min-width:576px){
+        .progress-text-mob{
+            display: none;
+            width: 0px;
+            height: 0px;
+        }
+        }
+@media (max-width:576px){
+    .progress-text-desktop{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    .progress-text-mob{
+       padding: 0;
+    }
+    img{
+        width: 14rem;
+        height: 18rem;
+        position: relative;
+        left: -3rem;
+        top: -1rem;  
+    }
+    #first-text{
+        font-weight: 500;
+        font-size: 1.7rem; 
+     }
+     #second-text{
+         font-weight: bolder;
+         font-size: 1.7rem; 
+      }
+      #third-text{
+         font-weight: bolder;
+         font-size: 1.7rem; 
+         color: #3E593C; 
+         margin-top: 1.4rem;
+      }
+      .main-container-col{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        width: 73%;
+    }
+    .first-component-row{
+        height: 16rem;
+        
+    }
+    .first-component-text-col{
+       position: relative;
+       padding-left: 0.8rem;
+       padding-top: 2.4rem;
+    }
+    .main-container-col{
+        width: 100%;
+    }
+    .progress-col{
+        width: 100%;
+    }
+    .chart1{
+        padding-left: 2.6rem;
+    }
+    .chart2{
+        padding-left: 2.6rem;
+    }
+    .chart3{
+        padding-left: 2.6rem;
+    }
+    .chart3 span{
+        position: relative;
+        
+    }
+    .card1{
+        margin-top: -0.5rem;
+    }
+    .card2{
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+    .card3{
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+    .a{
+        
+    }
+    .btn-row{
+        display: none;
+        height: 0;
+        width: 0;
+    }
+    .last-component-row{
+        background-color: #D9DCCB;
+        margin-top: 2rem;
+        border-radius: 0.6rem;
+        height: 16rem;
+    }
+    .last-component-text-col{
+     position: relative;
+     padding-left: 0.8rem;
+     padding-top: 3rem;
+    }
+    #fourth-text{
+        font-weight: bolder;
+        font-size: 1.7rem; 
+     }
+     #fifth-text{
+         font-weight: bolder;
+         font-size: 1.7rem; 
+      }
+      #sixth-text{
+         font-weight: 500;
+         font-size: 1.2rem; 
+         color: #3E593C;
+         margin-top: 2rem;
+      }
+    }
+
+    @media (max-width:376px){
+        .progress-text-desktop{
+            display: none;
+            width: 0px;
+            height: 0px;
+        }
+        .progress-text-mob{
+           padding: 0;
+           font-size: 1rem;
+        }
+        img{
+            width: 14rem;
+            height: 18rem;
+            position: relative;
+            left: -3rem;
+            top: -1rem;  
+        }
+        #first-text{
+            font-weight: 500;
+            font-size: 1.7rem; 
+         }
+         #second-text{
+             font-weight: bolder;
+             font-size: 1.7rem; 
+          }
+          #third-text{
+             font-weight: bolder;
+             font-size: 1.7rem; 
+             color: #3E593C; 
+             margin-top: 1.4rem;
+          }
+          .main-container-col{
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            width: 73%;
+        }
+        .first-component-row{
+            height: 16rem;
+            
+        }
+        .first-component-text-col{
+           position: relative;
+           padding-left: 0.8rem;
+           padding-top: 2.4rem;
+        }
+        .main-container-col{
+            width: 100%;
+        }
+        .progress-col{
+            width: 100%;
+        }
+        .chart1{
+            padding-left: 0.98rem;
+        }
+        .chart2{
+            padding-left: 0.98rem;
+        }
+        .chart3{
+            padding-left: 0.98rem;
+        }
+
+        .chart3 span{
+            position: relative;
+            
+        }
+        .card1{
+            margin-top: -0.5rem;
+        }
+        .card2{
+            margin-left: 0rem;
+            margin-top: 2rem;
+        }
+        .card3{
+            margin-left: 0rem;
+            margin-top: 2rem;
+        }
+        .a{
+            
+        }
+        .btn-row{
+            display: none;
+            height: 0;
+            width: 0;
+        }
+        .last-component-row{
+            background-color: #D9DCCB;
+            margin-top: 2rem;
+            border-radius: 0.6rem;
+            height: 16rem;
+        }
+        .last-component-text-col{
+         position: relative;
+         padding-left: 0.8rem;
+         padding-top: 3.5rem;
+        }
+        #fourth-text{
+            font-weight: bolder;
+            font-size: 1.3rem; 
+         }
+         #fifth-text{
+             font-weight: bolder;
+             font-size: 1.3rem; 
+          }
+          #sixth-text{
+             font-weight: 500;
+             font-size: 1.1rem; 
+             color: #3E593C;
+             margin-top: 2rem;
+          }
+        }
+@media (max-width:320px){
+.progress-text-desktop{
+    display: none;
+    width: 0px;
+    height: 0px;
+}
+.progress-text-mob{
+    padding: 0;
+    font-size: 0.82rem;
+}
+img{
+    width: 12rem;
+    height: 18rem;
+    position: relative;
+    left: -5rem;
+    top: -1rem;  
+}
+#first-text{
+    font-weight: 500;
+    font-size: 1.5rem; 
+    }
+    #second-text{
+        font-weight: bolder;
+        font-size: 1.5rem; 
+    }
+    #third-text{
+        font-weight: bolder;
+        font-size: 1.5rem; 
+        color: #3E593C; 
+        margin-top: 1.4rem;
+    }
+    .main-container-col{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 73%;
+}
+.first-component-row{
+    height: 16rem;
+    
+}
+.first-component-text-col{
+    position: relative;
+    padding-left: 0.8rem;
+    padding-top: 3.4rem;
+}
+.main-container-col{
+    width: 100%;
+}
+.progress-col{
+    width: 100%;
+}
+.chart1{
+    padding-left: 0rem;
+    margin-left: -1rem;
+}
+.chart2{
+    padding-left: 0rem;
+    margin-left: -1rem;
+}
+.chart3{
+    padding-left: 0rem;
+    margin-left: -1rem;
+}
+
+.chart3 span{
+    position: relative;
+}
+.card1{
+    margin-top: -0.5rem;
+}
+.card2{
+    margin-left: 0rem;
+    margin-top: 2rem;
+}
+.card3{
+    margin-left: 0rem;
+    margin-top: 2rem;
+}
+.a{
+    
+}
+.btn-row{
+    display: none;
+    height: 0;
+    width: 0;
+}
+.last-component-row{
+    background-color: #D9DCCB;
+    margin-top: 2rem;
+    border-radius: 0.6rem;
+    height: 16rem;
+}
+.last-component-text-col{
+    position: relative;
+    padding-left: 0.8rem;
+    padding-top: 3.5rem;
+}
+#fourth-text{
+    font-weight: bolder;
+    font-size: 1rem; 
+    }
+    #fifth-text{
+        font-weight: bolder;
+        font-size: 1rem; 
+    }
+    #sixth-text{
+        font-weight: 500;
+        font-size: 0.85rem; 
+        color: #3E593C;
+        margin-top: 2rem;
+    }
+}
+@media (min-width:768px){
+    .main-container-col{
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        width: 87%;
+    }
+    #first-text{
+        font-size: 2.5rem; 
+     }
+     #second-text{
+         font-size: 2.5rem; 
+      }
+      #third-text{
+         font-size: 2.5rem; 
+         margin-top: 2.4rem;
+      }
+      .first-component-row{
+        border-radius: 0.6rem;
+        height: 20rem;
+    
+    }
+    .first-component-text-col{
+       position: relative;
+        padding-left: 4.5rem;
+        padding-top: 3rem;
+    }
+    img{
+       width: 24rem;
+       height: 20rem;
+       position: relative;
+       left: -2rem;
+       
+   }
+   #fourth-text{
+       font-size: 2.5rem; 
+    }
+    #fifth-text{
+        font-size: 2.5rem; 
+     }
+     #sixth-text{
+        font-weight: 500;
+        font-size: 2rem; 
+        color: #3E593C;
+        margin-top: 3rem;
+     }
+       .chart span {
+         position: relative;
+         top: 11.10rem;
+         left: 5.3rem;
+         font-size:4rem;
+         font-weight:600;
+       }
+       .chart2 span {
+           position: relative;
+           top: 11.10rem;
+           left: 5.3rem;
+           font-size:4rem;
+           font-weight:600;
+         }
+         .chart1{
+             margin-left: -3.5rem;
+         }
+         .chart2{
+            margin-left: -3.5rem;
+        }
+        .chart3{
+            margin-left: -3.5rem;
+        }
+        .card2{
+            margin-left: 1.2rem;
+        }
+        .card3{
+            margin-left: 1.2rem;
+        }
+   
+       .progress-text-row1{
+           position: relative;
+           margin-top: 1.5rem;  
+       }
+       .progress-text-col1{
+           text-align: center;
+           font-size: 1.8rem;  
+           letter-spacing: 0.1rem;
+           padding: 0;
+       }
+       .progress-text-col2{
+           font-size: 1rem;  
+           font-weight: 500;
+           margin-top: 1.2rem;
+       }
+       .progress-text-desktop{
+           font-size: 0.9rem;
+           padding: 0;
+       }
+       .last-component-row{
+           margin-top: 7rem;
+           border-radius: 0.6rem;
+           height: 20rem;
+       }
+       .last-component-text-col{
+        position: relative;
+        padding-left: 4.5rem;
+        padding-top: 4.5rem;
+       }
+       #arrow{
+           width: 2rem;
+           margin-top: 10rem;
+       }
+       .btn-row{
+           margin-top: 2.5rem;
+       }
+       
+       .btn{
+           border :0.15rem solid #3E593C ;
+       }
+}
+
+@media (min-width:1024px){
+        .main-container-col{
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            width: 73%;
+        }
+        #first-text{
+            font-size: 2.5rem; 
+         }
+         #second-text{
+             font-size: 2.5rem; 
+          }
+          #third-text{
+             font-size: 2.5rem; 
+             margin-top: 3.4rem;
+          }
+          .first-component-row{
+            border-radius: 0.6rem;
+            height: 25rem;
+        
+        }
+        .first-component-text-col{
+           position: relative;
+            padding-left: 4.5rem;
+            padding-top: 4.7rem;
+        }
+        img{
+           width: 27rem;
+           height: 25rem;
+           position: relative;
+           left: 1rem;
+           
+       }
+       #fourth-text{
+           font-size: 2.5rem; 
+        }
+        #fifth-text{
+            font-size: 2.5rem; 
+         }
+         #sixth-text{
+            font-weight: 500;
+            font-size: 2rem; 
+            color: #3E593C;
+            margin-top: 3rem;
+         }
+           .chart span {
+             position: relative;
+             top: 11.10rem;
+             left: 5.3rem;
+             font-size:4rem;
+             font-weight:600;
+           }
+           .chart2 span {
+               position: relative;
+               top: 11.10rem;
+               left: 5.3rem;
+               font-size:4rem;
+               font-weight:600;
+             }
+             .chart1{
+                margin-left: -2.3rem;
+            }
+            .chart2{
+               margin-left: -2.3rem;
+           }
+           .chart3{
+               margin-left: -2.3rem;
+           }
+           .card2{
+            margin-left: 1.3rem;
+            }
+            .card3{
+                margin-left: 1.3rem;
+            }
+       
+           .progress-text-row1{
+               position: relative;
+               margin-top: 1.5rem;  
+           }
+           .progress-text-col1{
+               text-align: center;
+               font-size: 2.1rem;  
+               letter-spacing: 0.1rem;
+           }
+           .progress-text-col2{
+               font-size: 1.1rem;  
+               font-weight: 500;
+               margin-top: 1.2rem;
+           }
+           .last-component-row{
+               margin-top: 7rem;
+               border-radius: 0.6rem;
+               height: 25rem;
+           }
+           .last-component-text-col{
+            position: relative;
+            padding-left: 4.5rem;
+            padding-top: 5.6rem;
+           }
+           #arrow{
+               width: 2rem;
+               margin-top: 10rem;
+           }
+           .btn-row{
+               margin-top: 2.5rem;
+           }
+           
+           .btn{
+               border :0.15rem solid #3E593C ;
+           }
+    }
+    @media (min-width:1100px){
+        .chart{
+            position: relative;
+            left: -1.9rem;
+        }
+        .chart1{
+            margin-left: 0rem;
+        }
+        .chart2{
+            margin-left: 0rem;
+        }
+        .chart3{
+            margin-left: 0rem;
+        }
+    }
+
+@media (min-width:1250px) {
+    .main-container-col{
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+    #first-text{
+        font-size: 2.5rem; 
+     }
+     #second-text{
+         font-size: 2.5rem; 
+      }
+      #third-text{
+         font-size: 2.5rem; 
+         margin-top: 3.4rem;
+      }
+      .first-component-row{
+        border-radius: 0.6rem;
+        height: 22rem;
+    
+    }
+    .first-component-text-col{
+       position: relative;
+        padding-left: 4.5rem;
+        padding-top: 4rem;
+    }
+    img{
+       width: 28rem;
+       height: 23rem;
+       position: relative;
+       left: 1rem;
+       
+   }
+   #fourth-text{
+       font-size: 2.5rem; 
+    }
+    #fifth-text{
+        font-size: 2.5rem; 
+     }
+     #sixth-text{
+        font-weight: 500;
+        font-size: 2rem; 
+        color: #3E593C;
+        margin-top: 3rem;
+     }
+       .chart span {
+         position: relative;
+         top: 11.10rem;
+         left: 5.3rem;
+         font-size:4rem;
+         font-weight:600;
+       }
+       .chart2 span {
+           position: relative;
+           top: 11.10rem;
+           left: 5.3rem;
+           font-size:4rem;
+           font-weight:600;
+         }
+         .chart{
+            position: relative;
+            left: -0.2rem;
+            top: -1rem;
+        }
+   
+       .progress-text-row1{
+           position: relative;
+           margin-top: 1rem;  
+       }
+       .card2{
+        margin-left: 1.8rem;
+        }
+        .card3{
+            margin-left: 1.8rem;
+        }
+       .progress-text-col1{
+           text-align: center;
+           font-size: 2.2rem;  
+           letter-spacing: 0.1rem;
+       }
+       .progress-text-col2{
+           font-size: 1.3rem;  
+           font-weight: 500;
+           margin-top: 1.2rem;
+       }
+       .last-component-row{
+           margin-top: 7rem;
+           border-radius: 0.6rem;
+           height: 22rem;
+       }
+       .last-component-text-col{
+        position: relative;
+        padding-left: 4.5rem;
+        padding-top: 4.5rem;
+       }
+       #arrow{
+           width: 2rem;
+           margin-top: 10rem;
+       }
+       .btn-row{
+           margin-top: 2.5rem;
+       }
+       
+       .btn{
+           border :0.15rem solid #3E593C ;
+       }
+}
+
+@media (min-width:1440px){
+    .main-container-col{
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+    .first-component-row{
+        border-radius: 0.6rem;
+        height: 32rem;
+    }
+    
+    #first-text{
+        font-size: 3.5rem; 
+     }
+     .first-text-row{ 
+        position: relative;
+        margin-top: 3.5rem;
+     }
+     #second-text{
+         font-size: 3.5rem; 
+      }
+      #third-text{
+         font-size: 3.5rem; 
+         margin-top: 4.5rem;
+      }
+    .first-component-text-col{
+       position: relative;
+        padding-left: 5.6rem;
+        padding-top: 3rem;
+    }
+    img{
+       width: 30rem;
+       height: 33rem;
+       position: relative;
+       left: 1rem;
+      
+   }
+   #fourth-text{
+       font-size: 3.5rem; 
+    }
+    #fifth-text{
+        font-size: 3.5rem; 
+     }
+     #sixth-text{
+        font-weight: 500;
+        font-size: 2.4rem; 
+        color: #3E593C;
+        margin-top: 3.9rem;
+     }
+       .chart span {
+         position: relative;
+         top: 11.10rem;
+         left: 5.3rem;
+         font-size:4rem;
+         font-weight:600;
+       }
+       .chart2 span {
+           position: relative;
+           top: 11.10rem;
+           left: 5.3rem;
+           font-size:4rem;
+           font-weight:600;
+         }
+   
+       .progress-text-row1{
+           position: relative;
+           margin-top: 1.5rem;  
+       }
+       .card2{
+        margin-left: 2rem;
+    }
+        .card3{
+            margin-left: 2rem;
+        }
+        .chart1{
+            margin-left: 1.5rem;
+        }
+        .chart2{
+            margin-left: 1.5rem;
+        }
+        .chart3{
+            margin-left: 1.5rem;
+        }
+       .progress-text-col1{
+           text-align: center;
+           font-size: 2.7rem;  
+           letter-spacing: 0.1rem;
+       }
+       .progress-text-col2{
+           font-size: 1.8rem;  
+           font-weight: 500;
+           margin-top: 1.2rem;
+       }
+       .last-component-row{
+           margin-top: 7rem;
+           border-radius: 0.6rem;
+           height: 32rem;
+       }
+       .last-component-text-col{
+        position: relative;
+        padding-left: 5.6rem;
+        padding-top: 6.5rem;
+       }
+       #arrow{
+           width: 2rem;
+           margin-top: 10rem;
+       }
+       .btn-row{
+           margin-top: 2.5rem;
+       }
+       
+       .btn{
+           border :0.15rem solid #3E593C ;
+           height: 5rem;
+           font-size: 2rem;
+       }
+}
+
+@media (min-width:1716px){
+    .main-container-col{
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+    .first-component-row{
+        border-radius: 0.6rem;
+        height: 32rem;
+    }
+    
+    #first-text{
+        font-size: 3.5rem; 
+     }
+     .first-text-row{ 
+        position: relative;
+        margin-top: 3.5rem;
+     }
+     #second-text{
+         font-size: 3.5rem; 
+      }
+      #third-text{
+         font-size: 3.5rem; 
+         margin-top: 4.5rem;
+      }
+    .first-component-text-col{
+       position: relative;
+        padding-left: 6.3rem;
+        padding-top: 3rem;
+    }
+    img{
+       width: 30rem;
+       height: 33rem;
+       position: relative;
+       left: 6.5rem;
+      
+   }
+   #fourth-text{
+       font-size: 3.5rem; 
+    }
+    #fifth-text{
+        font-size: 3.5rem; 
+     }
+     #sixth-text{
+        font-weight: 500;
+        font-size: 2.4rem; 
+        color: #3E593C;
+        margin-top: 3.9rem;
+     }
+     .card2{
+        margin-left: 2.3rem;
+    }
+        .card3{
+            margin-left: 2.3rem;
+        }
+        .chart1{
+            margin-left: 3.9rem;
+        }
+        .chart2{
+            margin-left: 3.9rem;
+        }
+        .chart3{
+            margin-left: 3.9rem;
+        }
+       
+       .second-component-main-row{
+           margin-top: 6rem;
+       }
+   
+       .progress-text-row1{
+           position: relative;
+           margin-top: 1.5rem;  
+       }
+       .progress-text-col1{
+           text-align: center;
+           font-size: 3.1rem;  
+           letter-spacing: 0.1rem;
+       }
+       .progress-text-col2{
+           font-size: 2.1rem;  
+           font-weight: 500;
+           margin-top: 1.2rem;
+       }
+       .last-component-row{
+           margin-top: 7rem;
+           border-radius: 0.6rem;
+           height: 32rem;
+       }
+       .last-component-text-col{
+        position: relative;
+        padding-left: 6.1rem;
+        padding-top: 6.5rem;
+       }
+       #arrow{
+           width: 2rem;
+           margin-top: 10rem;
+       }
+       .btn-row{
+           margin-top: 2.5rem;
+       }
+       
+       .btn{
+           border :0.15rem solid #3E593C ;
+           height: 5rem;
+           font-size: 2rem;
+       }
+}
+@media (min-width:1920px){
+    .main-container-col{
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+    .first-component-row{
+        border-radius: 0.6rem;
+        height: 35rem;
+    }
+    
+    #first-text{
+        font-size: 3.5rem; 
+     }
+     .first-text-row{ 
+        position: relative;
+        margin-top: 3.6rem;
+     }
+     #second-text{
+         font-size: 3.6rem; 
+      }
+      #third-text{
+         font-size: 3.6rem; 
+         margin-top: 4.5rem;
+      }
+    .first-component-text-col{
+       position: relative;
+        padding-left: 7.7rem;
+        padding-top: 4.7rem;
+    }
+    img{
+       width: 30rem;
+       height: 35rem;
+       position: relative;
+       left: 12.1rem;
+      
+   }
+   #fourth-text{
+       font-size: 3.6rem; 
+    }
+    #fifth-text{
+        font-size: 3.6rem; 
+     }
+     #sixth-text{
+        font-weight: 500;
+        font-size: 2.5rem; 
+        color: #3E593C;
+        margin-top: 3.9rem;
+     }
+     .card2{
+        margin-left: 2.6rem;
+    }
+        .card3{
+            margin-left: 2.6rem;
+        }
+        .chart1{
+            margin-left: 5.1rem;
+        }
+        .chart2{
+            margin-left: 5.1rem;
+        }
+        .chart3{
+            margin-left: 5.1rem;
+        }
+       .second-component-main-row{
+           margin-top: 6rem;
+       }
+   
+       .progress-text-row1{
+           position: relative;
+           margin-top: 1.5rem;  
+       }
+       .progress-text-col1{
+           text-align: center;
+           font-size: 3.4rem;  
+           letter-spacing: 0.1rem;
+       }
+       .progress-text-col2{
+           font-size: 2.4rem;  
+           font-weight: 500;
+           margin-top: 1.2rem;
+       }
+       .last-component-row{
+           margin-top: 7rem;
+           border-radius: 0.6rem;
+           height: 35rem;
+       }
+       .last-component-text-col{
+        position: relative;
+        padding-left: 7.7rem;
+        padding-top: 8.2rem;
+       }
+       #arrow{
+           width: 2rem;
+           margin-top: 10rem;
+       }
+       .btn-row{
+           margin-top: 4.5rem;
+       }
+       
+       .btn{
+           border :0.15rem solid #3E593C ;
+           height: 7rem;
+           font-size: 3rem;
+       }
+      #btn1{
+          position: relative;
+          left: -1rem;
+      }
+      #btn2{
+        position: relative;
+        left: 2rem;
+    }
+       
+}
+@media (min-width:2200px){
+    .main-container-col{
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+    .first-component-row{
+        border-radius: 0.6rem;
+        height: 51rem;
+    }
+    
+    #first-text{
+        font-size: 5.5rem; 
+     }
+     .first-text-row{ 
+        position: relative;
+        margin-top: 3.6rem;
+     }
+     #second-text{
+         font-size: 5.5rem; 
+      }
+      #third-text{
+         font-size: 5.5rem; 
+         margin-top: 7.5rem;
+      }
+    .first-component-text-col{
+       position: relative;
+        padding-left: 10.7rem;
+        padding-top: 5.7rem;
+    }
+    img{
+       width: 45rem;
+       height: 51rem;
+       position: relative;
+       left: 12.1rem;
+      
+   }
+   #fourth-text{
+       font-size: 5.5rem; 
+    }
+    #fifth-text{
+        font-size: 5.5rem; 
+     }
+     #sixth-text{
+        font-weight: 500;
+        font-size: 3.9rem; 
+        color: #3E593C;
+        margin-top: 5.4rem;
+     }
+     .card2{
+        margin-left: 3.3rem;
+    }
+        .card3{
+            margin-left: 3.3rem;
+        }
+        .chart1{
+            margin-left: 5.1rem;
+            margin-top: 7.8rem;
+        }
+        .chart1 span{
+            position: relative;
+            top: -6.7rem;
+            left: 12rem;
+        }
+        .chart2{
+            margin-left: 5.1rem;
+            margin-top: 7.8rem;
+        }
+        .chart2 span{
+            position: relative;
+            top: -6.7rem;
+            left: 12rem;
+        }
+        .chart3{
+            margin-left: 5.1rem;
+            margin-top: 7.8rem;
+        }
+        .chart3 span{
+            position: relative;
+            top: -6.7rem;
+            left: 12rem;
+        }
+        
+       .second-component-main-row{
+           margin-top: 6rem;
+       }
+   
+       .progress-text-row1{
+           position: relative;
+           margin-top: 1.5rem;  
+       }
+       .progress-text-col1{
+           text-align: center;
+           font-size: 4.2rem;  
+           letter-spacing: 0.1rem;
+       }
+       .progress-text-col2{
+           font-size: 2.9rem;  
+           font-weight: 500;
+           margin-top: 1.2rem;
+       }
+       .last-component-row{
+           margin-top: 7rem;
+           border-radius: 0.6rem;
+           height: 51rem;
+       }
+       .last-component-text-col{
+        position: relative;
+        padding-left: 10.7rem;
+        padding-top: 10.9rem;
+       }
+       #arrow{
+           width: 2rem;
+           margin-top: 10rem;
+       }
+       .btn-row{
+           margin-top: 4.5rem;
+       }
+       
+       .btn{
+           border :0.15rem solid #3E593C ;
+           height: 9rem;
+           font-size: 3.5rem;
+       }
+      #btn1{
+          position: relative;
+          left: -1rem;
+      }
+      #btn2{
+        position: relative;
+        left: 2rem;
+    }
+       
+}
+  
+    
+
+
+  

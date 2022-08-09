@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'pf handbook pro';
+    src: url("/fonts/PFHandbookPro-Regular_35440.ttf");
+}
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -5,7 +9,8 @@ html, body {
 body{
     overflow-x: hidden;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'pf handbook pro' ;
+    letter-spacing: 0.1rem;
    
 }
 .nav-title{
@@ -106,10 +111,11 @@ body{
 }
 video{
     width: 50rem;
-    height: 38rem;
-    
-    
+    height: 46rem;  
+    position: relative;
+    top: -8.2rem;
 }
+
 .btn2{
     border :0.15rem solid #3E593C ;
     color: #3E593C ;

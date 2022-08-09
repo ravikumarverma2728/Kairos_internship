@@ -1,0 +1,403 @@
+@font-face {
+    font-family: 'pf handbook pro';
+    src: url("/fonts/PFHandbookPro-Regular_35440.ttf");
+}
+
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'pf handbook pro';
+    letter-spacing: 0.1rem;
+}
+.nav-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+p,span,a{
+    font-family: 'pf handbook pro';
+}
+h1,h2,h3,h4,h5,h6{
+
+    font-family: 'pf handbook pro';
+    font-weight: bolder;
+    color: #3E593C;
+}
+
+/* SideBar Start */
+.left{
+    padding:0;
+    margin:0;
+    
+}
+.sidebar {
+    margin: 0vw;
+    padding: 0vw;
+    width: 22vw;
+    background-color: #fff;
+    position: relative;
+    top:-1.5vw;
+    left:0;
+    height: 100vh;
+    overflow: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .sidebar a {
+    display: block;
+    align-items: center;
+    color: #3E593C;
+    padding:16px;
+    text-decoration: none;
+    font-size:1.3vw;
+    padding-left:5vw;
+    font-weight: 500;
+    letter-spacing: 0rem;
+  }
+  .sidebar a.active {
+    background-color: #fff;
+    border-right:3px solid #3E593C;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+   
+    padding-left:5vw;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  .profile{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-img{
+      height:10vw;
+      width:10vw;
+      border-radius: 50%;
+      margin-top: 2vw;
+      margin-bottom: 2vw;      
+  }
+  .image{
+    margin-left:2vw;
+}
+.edit{
+    position: relative;
+    top:3vw;
+    right:2vw;
+    background-color: #3E593C;
+    color:white;
+    padding:0.5em;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.name{
+    position: relative;
+    top:-2vw;
+}
+.right-side{
+    border: 2px solid white;  
+    margin-top: 1vh;
+    margin-left: 2.8vw;
+    width: 72%;
+}
+.right-side-first-row-left-col{
+    border: 2px solid white;
+    color: #3E593C;
+    font-weight: 550;
+    font-size: 2rem;
+    padding-left: 1.5vw;
+}
+.right-side-first-row-right-col{
+    border: 2px solid white;
+    color: #3E593C;
+    font-weight: 550;
+    font-size: 2rem;
+    margin-left: 2.5vw;
+    padding-left: 4.1vw;
+}
+.right-side-second-row-left-col{
+    border: 0.15rem solid #CDCECE;
+    border-radius: 1.3rem;
+    width: 33.86rem;
+    height: 14.1rem;
+}
+.right-side-second-row-right-col{
+    border: 0.15rem solid #CDCECE;
+    margin-left: 2.5vw;
+    width: 52.1rem;
+    border-radius: 1.3rem;
+    height: 14.1rem;    
+}
+.right-side-second-row-right-col-main-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14.1rem;
+    overflow-y: auto;
+}
+.right-side-second-row-right-col-row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vh;
+    border: 1px solid white;
+}
+.icon{
+   background-color: #C0C5A8;
+   height: 3rem;
+}
+.time{
+    font-weight: bold;
+    font-size: 1.02rem;
+    position: relative;
+    left: 0vw;
+    width: 9vw;
+    border: 1px solid white;
+}
+.webisode-text-col{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.first-text-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3E593C;
+    font-weight: bolder;
+    font-size: 8rem;
+    padding: 0px;
+    margin: 0px;
+}
+.second-text-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #3E593C;
+    font-size: 1.3rem;
+    padding: 0px;
+    margin: 0px;
+    margin-top: -2.5vh;
+}
+.right-side-third-row-main-col{
+    padding-left: 1.5vw;
+    color: #3E593C;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 3vh;
+}
+.right-side-fourth-row{
+    border: 0.15rem solid #CDCECE;
+    width: 100.7%;
+    border-radius: 1.6rem;
+    border: 2px solid white;
+    position: relative;
+    left: -0.8rem;
+}
+.third-text-col{
+    margin-top: 3.2vh;
+    color: #6C7174;
+    font-size: 2.1rem;
+    padding: 0px;
+    width: 94.2%;
+    
+}
+.line-row{
+    margin-top: 2vh;
+    border-bottom:0.12rem solid #CDCECE ;
+    width: 97.2%;
+}
+.line-row-next-row{
+    width: 97.2%;
+    height: 4rem;
+    background-color: #D9DCCB;
+    border-radius: 0.35rem;
+    margin-top: 4.8vh;
+}
+.line-row-next-row-left-col{
+    font-size: 1.6rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.line-row-next-row-right-col{
+    font-weight: bold;
+    font-size: 0.98rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.line-row-next-next-row{
+    margin-top: 1.6vh;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+
+/* SideBar End */
+
+
+/* Spinner css starts here */
+
+#spin-container {
+    max-width:50rem;
+    margin:0 auto;
+  }
+  .spin-to-win {
+    max-width:50rem;
+  }
+  .spin-to-win img {
+    width:100%;
+    height:auto;
+  }
+  
+  #spinner {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align:middle;
+  }
+  
+  #spin-btn {
+    cursor:pointer;
+    background:white;
+  /*   background-image:url('https://contentservice.mc.reyrey.net/image_v1.0.0/?id=d08f9524-26eb-53be-a6a1-bc8d8e19cc20&637070095483683129'); */
+    background-size:100% 100%;
+    box-shadow:0 0 15px rgba(0,0,0,.25);
+    animation:spinBtn 2s linear infinite;
+    border:5px solid transparent;
+    text-align:center;
+  }
+  #spin-btn p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  @keyframes spinBtn {
+    0% { border:5px solid black; }
+    50% { border:5px solid red; }
+    100% { border:5px solid black; }
+  }
+  
+  #spin-btn, #spin-arrow {
+    max-width:180px;
+    width:calc(100vw * .3);
+    max-height:180px;
+    height:calc(100vw * .3);  
+    border-radius:50%;
+    display:inline-block;
+    position:absolute;
+  }
+  
+  #spin-arrow {
+    transition-timing-function: ease-in-out;
+    transition:3s;
+  }
+  #spin-arrow:after {
+    content:'';
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:calc(100vw * .14167);
+    max-width:85px;
+    height:calc(100vw * .14167);
+    max-height:85px;
+    background-color:white; 
+    box-shadow:-2px -2px 10px rgba(0,0,0,.25);
+  }
+  
+  /* btn styles */
+  #si-btn {
+    max-width: 320px;
+    background:white;
+    color:black;
+    text-align:center;
+    font-family:sans-serif;
+    border-radius:15px;
+    margin:0 auto 25px auto;
+    padding:0px;
+  /*   transition:2s; */
+    filter:invert(1);
+    opacity:0;
+  }
+  /* #si-btn:hover {
+    background:#e81238;
+  } */
+  #si-btn a {
+    color:inherit;
+    text-decoration:none;
+    display:inline-block;
+    padding:20px 35px;
+  }
+  /* btn styles */
+  
+  /* OFFER STYLES */
+  .spin-offer {
+    max-width: 600px;
+    padding:20px;
+  /*   border:10px solid lightgray; */
+    border-radius:15px;
+    text-align:center;
+    font-size:24px;
+    font-family:sans-serif;
+    position:relative;
+    display:none;
+    vertical-align:middle;
+    animation:spin 2s linear forwards;
+    color:white;
+    box-shadow:10px 10px 10px rgba(0,0,0,.25);
+    margin-bottom:30px;
+  }
+  @keyframes spin {
+    0% { opacity:0; }
+    100% { opacity:1; }
+  }
+  
+  .spin-offer .item {
+    padding:10px;
+  }
+  
+  .spin-title {
+    
+  }
+  .spin-price {
+    font-size:60px;
+    line-height:60px;
+    padding-bottom:0px !important;
+  }
+  .spin-info {
+    padding-top:0px !important;
+  }
+  .spin-disc {
+    font-size:12px;
+  }
+/* Spinner css ends here */

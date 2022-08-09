@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'pf handbook pro';
+    src: url("/fonts/PFHandbookPro-Regular_35440.ttf");
+}
+
 body{
     overflow-x: hidden;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'pf handbook pro' ;
+    letter-spacing: 0.1rem;
 }
 .nav-title{
     display: flex;
@@ -10,8 +16,7 @@ body{
 }
 .card-container{
     position: relative;
-    top: 7vh;
-  
+    top: 9vh; 
 }
 .card-container-row{ 
     display: flex;
@@ -45,17 +50,17 @@ body{
 }
 
 .log{
-    font-weight: 550;
+    font-weight: bolder;
     font-size: 2.2rem;
     width: 85%;
     color: #3E593C ;
 }
 input{
     margin-top: 3vh;
-    width: 85%;
+    width: 90%;
     border-radius: 0.3rem;
     border: none;
-	border: 0.15rem solid #CDCECE;
+	border: 0.1rem solid #CDCECE;
 	background: transparent;
 	outline: none;
     height: 3.2rem;
@@ -75,32 +80,28 @@ input{
 
 .btn-row{
     position: relative;
-    top: 1rem;
-    
+    top: 1rem;   
 }
 .btn{
     border :0.15rem solid #3E593C ;
     color: #3E593C ;
-    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .btn:hover{
-    background-color:#3E593C ;
-    color:white;
+    cursor: pointer;
 }
 #btn1{
-   width: 15.7rem;
-   margin-left: -0.8rem;
+   width: 116%;
+   margin-left: -0.8rem;  
 }
 #btn2{
-    width: 15.7rem;  
-    margin-left: -3rem;
- }
- #svg{
-     border: 2px red solid;
-     height: 30rem;
-     position: relative;
-     left: -2rem;
-     top: 4rem;
+    width: 116%; 
+    margin-left: 1.5rem;
+    background-color:#3E593C ;
+    color:white;
  }
 img{
      width: 29rem;
@@ -108,4 +109,1060 @@ img{
      position: relative;
      left: -2.5rem;
  }
- 
+
+ @media (min-width:576px){
+    .mobile-view-text-row{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    .anchor-mobile{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+
+    }
+@media (max-width:576px){
+    
+        .desktop-view-text-row{
+            display: none;
+            width: 0px;
+            height: 0px;
+        }
+        .anchor-desktop{
+            display: none;
+            width: 0px;
+            height: 0px;
+        }
+        .anchor-mobile{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .anchor-mobile a{
+            color: #C0C5A8;
+            font-size: 1.3rem;
+            text-decoration: none;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .text-mob{
+            font-size: 2rem;
+            font-weight: bolder;
+            color: #3E593C;
+            height: 15rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            left: 3rem;
+            line-height: 2.5rem;
+        }
+        .card-container{
+            position: relative;
+            top: 0vh; 
+        }
+        .panel{
+            height: 15rem;
+             background-color: #D9DCCB;
+             border-top-left-radius: 1rem;
+              border-bottom-left-radius: 1rem;
+         }
+         
+         .left-side{
+             background-color: #D9DCCB;
+             border-top-left-radius: 2rem;
+             border-bottom-left-radius: 2rem;
+             height: 15rem;
+             margin-top: -0.1rem;
+             
+         }
+         img{
+            width: 15rem;
+            height: 14rem;   
+            position: relative;
+            top: 0.5rem;
+        }
+        .right-side{
+            padding: 0px;
+            margin: 0px;
+            margin-top: -8rem;
+            position: relative;
+            left: 0rem;
+        }
+        input{
+            width: 100%;
+            height: 3.7rem;
+        }
+        .btn{
+            width: 100%;
+            line-height: 2.4rem;
+            font-size: 1.7rem;
+            margin-top: 2rem;
+        } 
+        #btn1{
+            width: 103%; 
+         }
+         #btn2{
+             width: 103%;
+             margin-left: -0.85rem;
+             margin-top: 2rem;
+          }
+        .text1{
+            font-size: 2.4rem;
+            }
+        .text2{
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+        .log{
+            margin-top: 2rem;
+        }
+    }
+
+    @media (max-width:375px){
+        .btn{
+            width: 100%;
+        }
+        #btn1{
+            width: 106%; 
+         }
+         #btn2{
+             width: 106%;
+             margin-left: -0.85rem;
+             margin-top: 2rem;
+          }
+          input{
+            width: 100%;
+        }
+    }
+    @media (max-width:346px){
+        .text-mob{
+            font-size: 1.6rem;
+            height: 15rem;
+            left: 3rem;
+            line-height: 2.5rem;
+        }
+         img{
+            width: 13rem;
+            height: 14rem;   
+            position: relative;
+            top: 0.5rem;
+        }
+        .right-side{
+            padding: 0px;
+            margin: 0px;
+            margin-top: -6rem;
+            position: relative;
+            left: -0.2rem;
+        }
+        input{
+            width: 100%;
+        }
+        .btn{
+            width: 100%;
+        }
+        #btn1{
+            width: 106%; 
+         }
+         #btn2{
+             width: 106%;
+             margin-left: -0.85rem;
+             margin-top: 2rem;
+          }
+        .text1{
+            font-size: 2.2rem;
+            }
+        .text2{
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+        .log{
+            margin-top: 0rem;
+        }
+    
+    }
+
+    @media(min-width:768px){
+        .card-container{
+            position: relative;
+            top: 7vh; 
+        }
+        .panel{
+           height: 32rem;
+        }
+        .left-side{
+            height: 32rem;
+            margin-top: -0.1rem;
+            margin-left: -0.1rem;
+        }
+        .right-side{
+            height: 32rem;
+            position: relative;
+            top: 6.1rem;
+            padding-left: 2rem;
+        }
+        .right-side-main-row{
+            height: 32rem;
+        }
+        input{
+            margin-top: 2.2vh;
+            width: 100%;
+            border: 0.1rem solid #CDCECE;
+            background: transparent;
+            height: 3.2rem;
+            padding-left: 0.6rem;
+            font-size: 1.3rem;
+        }
+        .btn{
+            border :0.15rem solid #3E593C ;
+            margin-top: 0.5rem;
+            width: 100%;
+            line-height: 1.4rem;
+            font-size: 1.1rem;  
+            
+        }
+        #btn1{
+            width: 150%;
+            margin-left: -0.9rem;  
+            
+         }
+         #btn2{
+             width: 150%; 
+             margin-left: 1.5rem;
+             background-color:#3E593C ;
+             color:white;
+          }
+        img{
+            width: 16rem;
+            height: 32rem;
+            position: relative;
+            left: -2.5rem;
+        }
+        .text{
+            font-size: 2.5rem;
+            position: relative;
+            top: 4rem;
+            left: -1rem;
+        }
+        .text1{
+        font-size: 1.9rem;
+        }
+        .text2{
+            font-weight: 400;
+            font-size: 0.7rem;
+            margin-top: 0.3rem;
+        }
+    }
+ @media (min-width:1000px){
+    .card-container{
+        position: relative;
+        top: 5vh; 
+    }
+    .panel{
+        height: 35rem;
+     }
+     .left-side{
+        height: 35rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .text{
+        font-size: 2.5rem;
+        position: relative;
+        top: 7rem;
+    }
+    img{
+        width: 22rem;
+        height: 35rem;
+    }
+    input{
+        width: 96%;
+    }
+    #btn1{
+        width: 135%;
+     }
+     #btn2{
+         width: 135%; 
+      }
+     
+ }
+ @media (min-width:1024px ) and (max-width:1025px) {
+    .card-container{
+        position: relative;
+        top: 8vh; 
+    }
+    .panel{
+        height: 43rem;
+     }
+     .left-side{
+        height: 43rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .right-side{
+        position: relative;
+        top: 10.2rem;
+        padding-left: 2.7rem;
+    }
+    .text{
+        font-size: 3rem;
+        position: relative;
+        top: 6.5rem;
+        left: -1.3rem;
+    }
+    img{
+        width: 21rem;
+        height: 42rem;
+    }
+    input{
+        width: 96%;
+    }
+    #btn1{
+        width: 135%;
+     }
+     #btn2{
+         width: 135%; 
+      }
+      .btn{
+          font-size: 1.5rem;
+      }
+     
+ }
+
+ @media (min-width:1100px){
+    .card-container{
+        position: relative;
+        top: 6vh; 
+    }
+    .panel{
+        height: 38rem;
+     }
+     .left-side{
+        height: 38rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .text{
+        font-size: 2.8rem;
+        position: relative;
+        top: 9rem;
+        left: -0rem;
+    }
+    img{
+        width: 22rem;
+        height: 38rem;
+        position: relative;
+        left: -1.5rem;
+    }
+    input{
+        width: 93%;
+    }
+    #btn1{
+        width: 126%;
+     }
+     #btn2{
+         width: 126%; 
+      }  
+ }
+
+ @media (min-width:1200px){
+    .card-container{
+        position: relative;
+        top: 6vh; 
+    }
+    .panel{
+        height: 38rem;
+     }
+     .left-side{
+        height: 38rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .text{
+        font-size: 3rem;
+        position: relative;
+        top: 7rem;
+    }
+    img{
+        width: 25rem;
+        height: 38rem;
+        position: relative;
+        left: -1.5rem;
+    }
+    input{
+        width: 93%;
+    }
+    #btn1{
+        width: 126%;
+     }
+     #btn2{
+         width: 126%; 
+      }  
+ }
+
+ @media (min-width:1250px){
+    .card-container{
+        position: relative;
+        top: 9vh; 
+    }
+    .panel{
+        height: 38rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+     }
+     .left-side{
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        height: 38rem;
+        margin-top: -0.1rem;
+    }
+    .right-side{
+        position: relative;
+        top: 8.6rem;
+        padding-left: 4rem;
+    }
+    .text{
+        font-size: 3.4rem;
+        position: relative;
+        top: 5rem;
+    }
+    .log{
+        font-size: 2.2rem;
+        width: 85%;
+    }
+    input{
+        margin-top: 3vh;
+        width: 90%;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #CDCECE;
+        height: 3.2rem;
+        padding-left: 1rem;
+        font-size: 1.3rem;
+    }
+    .forgetpassword a{
+        font-size: 1.3rem;
+    }
+    .forgetpassword{
+        margin-top: 0.8rem;
+        margin-left: 0.1rem;
+    }
+    .btn-row{
+        position: relative;
+        top: 1rem;   
+    }
+    .btn{
+        border :0.15rem solid #3E593C ;
+        font-size: 1.4rem;
+    }
+    #btn1{
+        width: 116%;
+        margin-left: -0.8rem;
+     }
+     #btn2{
+         width: 116%; 
+         margin-left: 1.5rem;
+      }
+     img{
+          width: 28rem;
+          height: 38rem;
+          position: relative;
+          left: -2.5rem;
+      }
+ }
+ @media (min-width:1300px){
+    .card-container{
+        position: relative;
+        top: 7vh; 
+    }
+    .panel{
+        height: 43rem;
+     }
+     .left-side{
+        height: 43rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .right-side{
+        position: relative;
+        top: 10.5rem;
+        padding-left: 4rem;
+    }
+    .text{
+        font-size: 3.6rem;
+        position: relative;
+        top: 7rem;
+    }
+    img{
+        width: 28rem;
+        height: 43rem;
+        position: relative;
+        left: -1.5rem;
+    }
+    input{
+        width: 93%;
+        height: 3.9rem;
+        font-size: 1.5rem;
+    }
+    #btn1{
+        width: 120%;
+     }
+     #btn2{
+         width: 120%; 
+         position: relative;
+         margin-left: 1.9rem;
+      }  
+      .btn-row{
+        position: relative;
+        top: 1.5rem;   
+    }
+    .btn{
+        height: 3.9rem;
+    }
+    .forgetpassword a{
+        font-size: 1.5rem;
+    }
+ }
+ @media (min-width:1400px){
+    .card-container{
+        position: relative;
+        top: 8vh; 
+    }
+    .panel{
+        height: 46rem;
+     }
+     .left-side{
+        height: 46rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .right-side{
+        position: relative;
+        top: 10.5rem;
+        padding-left: 4rem;
+    }
+    .text{
+        font-size: 3.9rem;
+        position: relative;
+        top: 7.3rem;
+    }
+    img{
+        width: 30rem;
+        height: 46rem;
+        position: relative;
+        left: -1.5rem;
+    }
+    input{
+        width: 90%;
+        height: 3.9rem;
+        font-size: 1.5rem;
+    }
+    #btn1{
+        width: 113%;
+     }
+     #btn2{
+         width: 113%; 
+         position: relative;
+         margin-left: 1.8rem;
+      }  
+      .btn-row{
+        position: relative;
+        top: 1.5rem;   
+    }
+    .forgetpassword a{
+        font-size: 1.6rem;
+    }
+    .btn{
+        font-size: 1.5rem;
+        height: 4rem;
+    }
+ }
+ @media (min-width:1440px) {
+    .card-container{
+        position: relative;
+        top: 8vh; 
+    }
+    .panel{
+        height: 55rem;
+     }
+     .left-side{
+        height: 55rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .right-side{
+        position: relative;
+        top: 11.5rem;
+        padding-left: 4rem;
+    }
+    .text{
+        font-size: 4.3rem;
+        position: relative;
+        top: 8.6rem;
+        left: -0.5rem;
+    }
+    img{
+        width: 31rem;
+        height: 55rem;
+        position: relative;
+        left: -1.5rem;
+    }
+    input{
+        width: 90%;
+        height: 4.1rem;
+        font-size: 1.7rem;
+    }
+    #btn1{
+        width: 113%;
+     }
+     #btn2{
+         width: 113%; 
+         position: relative;
+         margin-left: 1.8rem;
+      }  
+      .btn-row{
+        position: relative;
+        top: 1.5rem;   
+    }
+    .forgetpassword a{
+        font-size: 1.8rem;
+    }
+    .btn{
+        font-size: 2.3rem;
+        height: 4.1rem;
+        padding-top: 1.1rem;
+    }
+    .log{
+        font-size: 3rem;
+    }
+ }
+ @media (min-width:1500px){
+    .card-container{
+        position: relative;
+        top: 8vh; 
+    }
+    .panel{
+        height: 51rem;
+     }
+     .left-side{
+        height: 51rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .right-side{
+        position: relative;
+        top: 12rem;
+        padding-left: 4rem;
+    }
+    .text{
+        font-size: 4.1rem;
+        position: relative;
+        top: 8.5rem;
+    }
+    img{
+        width: 33rem;
+        height: 51rem;
+        position: relative;
+        left: -1.5rem;
+    }
+    input{
+        width: 90%;
+        height: 4.1rem;
+        font-size: 1.7rem;
+    }
+    #btn1{
+        width: 110%;
+     }
+     #btn2{
+         width: 110%; 
+         position: relative;
+         margin-left: 2.2rem;
+      }  
+      .btn-row{
+        position: relative;
+        top: 1.5rem;   
+    }
+    .forgetpassword a{
+        font-size: 1.8rem;
+    }
+    .btn{
+        font-size: 1.7rem;
+        height: 4rem;
+    }
+    .log
+    {
+        font-size: 2.6rem;
+        width: 85%;
+    }
+ }
+ @media (min-width:1600px){
+    .card-container{
+        position: relative;
+        top: 8vh; 
+    }
+    .panel{
+        height: 55rem;
+     }
+     .left-side{
+        height: 55rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .right-side{
+        position: relative;
+        top: 13rem;
+        padding-left: 4rem;
+    }
+    .text{
+        font-size: 4.4rem;
+        position: relative;
+        top: 9.8rem;
+    }
+    img{
+        width: 35rem;
+        height: 55rem;
+        position: relative;
+        left: -1.5rem;
+    }
+    input{
+        width: 90%;
+        height: 4.4rem;
+        font-size: 1.9rem;
+    }
+    #btn1{
+        width: 110%;
+     }
+     #btn2{
+         width: 110%;
+         position: relative;
+         margin-left: 2.2rem; 
+      }  
+      .btn-row{
+        position: relative;
+        top: 1.5rem;   
+    }
+    .forgetpassword a{
+        font-size: 1.8rem;
+    }
+    .btn{
+        font-size: 1.9rem;
+        height: 4.4rem;
+    }
+    .log
+    {
+        font-size: 2.7rem;
+        width: 85%;
+    }
+ }
+ @media (min-width:1700px){
+    .card-container{
+        position: relative;
+        top: 8vh; 
+    }
+    .panel{
+        height: 58rem;
+     }
+     .left-side{
+        height: 58rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .right-side{
+        position: relative;
+        top: 14rem;
+        padding-left: 4rem;
+    }
+    .text{
+        font-size: 4.6rem;
+        position: relative;
+        top: 10.9rem;
+    }
+    img{
+        width: 37rem;
+        height: 58rem;
+        position: relative;
+        left: -1.5rem;
+    }
+    input{
+        width: 90%;
+        height: 4.6rem;
+        font-size: 2.1rem;
+    }
+    #btn1{
+        width: 110%;
+     }
+     #btn2{
+         width: 110%; 
+         position: relative;
+         margin-left: 2.2rem;
+      }  
+      .btn-row{
+        position: relative;
+        top: 1.5rem;   
+    }
+    .forgetpassword a{
+        font-size: 2rem;
+    }
+    .btn{
+        font-size: 2.1rem;
+        height: 5rem;
+        border :0.19rem solid #3E593C ;
+    }
+    .log
+    {
+        font-size: 2.9rem;
+        width: 85%;
+    }
+ }
+ @media (min-width:1800px){
+    .card-container{
+        position: relative;
+        top: 8vh; 
+    }
+    .panel{
+        height: 61rem;
+     }
+     .left-side{
+        height: 61rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .right-side{
+        position: relative;
+        top: 14rem;
+        padding-left: 4rem;
+    }
+    .text{
+        font-size: 4.8rem;
+        position: relative;
+        top: 11.6rem;
+    }
+    img{
+        width: 39rem;
+        height: 61rem;
+        position: relative;
+        left: -1.5rem;
+    }
+    input{
+        width: 90%;
+        height: 5.2rem;
+        font-size: 2.1rem;
+    }
+    #btn1{
+        width: 110%;
+     }
+     #btn2{
+         width: 110%; 
+         position: relative;
+         margin-left: 2.3rem;
+      }  
+      .btn-row{
+        position: relative;
+        top: 1.5rem;   
+    }
+    .forgetpassword a{
+        font-size: 2.2rem;
+    }
+    .btn{
+        font-size: 2.3rem;
+        height: 5.3rem;
+        border :0.2rem solid #3E593C ;
+    }
+    .log
+    {
+        font-size: 3.1rem;
+        width: 85%;
+    }
+ }
+ @media (min-width:1900px){
+    .card-container{
+        position: relative;
+        top: 8vh; 
+    }
+    .panel{
+        height: 64rem;
+     }
+     .left-side{
+        height: 64rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .right-side{
+        position: relative;
+        top: 15rem;
+        padding-left: 4rem;
+    }
+    .text{
+        font-size: 5.2rem;
+        position: relative;
+        top: 10rem;
+    }
+    img{
+        width: 41rem;
+        height: 64rem;
+        position: relative;
+        left: -1.5rem;
+    }
+    input{
+        width: 90%;
+        height: 5.5rem;
+        font-size: 2.3rem;
+        padding-left: 1.5rem;
+    }
+    #btn1{
+        width: 110%;
+     }
+     #btn2{
+         width: 110%; 
+         position: relative;
+         margin-left: 2.4rem;
+      }  
+      .btn-row{
+        position: relative;
+        top: 1.9rem;   
+    }
+    .forgetpassword a{
+        font-size: 2.4rem;
+        margin-top: 2rem;
+    }
+    .btn{
+        font-size: 2.5rem;
+        height: 5.5rem;
+    }
+    .log
+    {
+        font-size: 3.1rem;
+        width: 85%;
+    }
+ }
+ @media (min-width:1920px){
+    .card-container{
+        position: relative;
+        top: 8vh; 
+    }
+    .panel{
+        height: 68rem;
+     }
+     .left-side{
+        height: 68rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .right-side{
+        position: relative;
+        top: 16.9rem;
+        padding-left: 4rem;
+    }
+    .text{
+        font-size: 5.5rem;
+        position: relative;
+        top: 11rem;
+    }
+    img{
+        width: 42.8rem;
+        height: 68rem;
+        position: relative;
+        left: -1.5rem;
+    }
+    input{
+        width: 90%;
+        height: 5.7rem;
+        font-size: 2.5rem;
+        padding-left: 1.5rem;
+    }
+    #btn1{
+        width: 110%;
+     }
+     #btn2{
+         width: 110%; 
+         position: relative;
+         margin-left: 2.4rem;
+      }  
+      .btn-row{
+        position: relative;
+        top: 1.9rem;   
+    }
+    .forgetpassword a{
+        font-size: 2.4rem;
+        margin-top: 3rem;
+    }
+    .btn{
+        font-size: 2.7rem;
+        height: 5.7rem;
+    }
+    .log
+    {
+        font-size: 3.4rem;
+        width: 85%;
+    }
+ }
+ @media (min-width:2000px){
+    .card-container{
+        position: relative;
+        top: 8vh; 
+    }
+    .panel{
+        height: 105rem;
+     }
+     .left-side{
+        height: 105rem;
+        position: relative;
+        left: -0.1rem;
+    }
+    .right-side{
+        position: relative;
+        top: 26rem;
+        padding-left: 7rem;
+    }
+    .text{
+        font-size: 8rem;
+        position: relative;
+        top: 19rem;
+        left: -1rem;
+    }
+    img{
+        width: 56rem;
+        height: 100rem;
+        position: relative;
+        left: -1.5rem;
+    }
+    input{
+        width: 90%;
+        height: 8.5rem;
+        font-size: 3.6rem;
+        padding-left: 1.5rem;
+    }
+    #btn1{
+        width: 105%;
+     }
+     #btn2{
+         width: 105%; 
+         position: relative;
+         margin-left: 3.4rem;
+      }  
+      .btn-row{
+        position: relative;
+        top: 2.3rem;  
+        left: 1rem; 
+    }
+    .forgetpassword a{
+        font-size: 3.5rem;
+    }
+    .forgetpassword{
+        margin-top: 2rem;
+    }
+    .btn{
+        font-size: 3.8rem;
+        height: 8.5rem;
+        border :0.25rem solid #3E593C ;
+        border-radius: 1rem;
+        padding-top: 3.1rem;
+    }
+    .log
+    {
+        font-size: 5.5rem;
+        width: 85%;
+    }
+ }

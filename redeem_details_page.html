@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>redeem_details Page</title>
+
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/masthead-personal.css" rel="stylesheet" />
+    <link href="css/footer-div.css" rel="stylesheet" />
+    <link href="css/jquery.mCustomScrollbar.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-datepicker3.css" rel="stylesheet" />
+    <link href="css/chosen.min.css" rel="stylesheet" />
+    <link href="css/_nice-select.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/redeem_details_page.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--Dummy Navbar-->
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid nav-title">
+          <div class="navbar-header ">
+            <a class="navbar-brand" href="#">
+              Reference Navbar
+            </a>
+          </div>
+        </div>
+    </nav>
+
+    <!--Dummy Navbar Ended-->
+
+    <!--Main body Start-->
+    <div class="container-fluid">
+
+        <div class="row brdr">
+            <!--left side starts-->
+            <nav class="nav">
+                <div class="nav__toggle">
+                  <div class="nav__line nav__line--first"></div>
+                  <div class="nav__line nav__line--second"></div>
+                  <div class="nav__line nav__line--third"></div>
+                </div>
+            </nav>
+            <div class="sidebar col-sm-3">
+                <div class="profile">
+                    <div class="image">
+                        <img src="image/img3.png" class="profile-img">
+                        <i class="fa fa-pencil-square-o edit" aria-hidden="true"></i>
+                        </div>
+                        <h2 class="name">Amara Kour</h2>
+                </div>
+                <div id="all-items">
+                    <a class=" menuselect top active " href="#home"><i class="fa fa-th-large" aria-hidden="true"></i> &nbsp;&nbsp;Dashboard</a>
+                    <a class="menuselect" href="#news "><i class="fa fa-bar-chart" aria-hidden="true"></i> &nbsp;&nbsp;Learning Modules</a>
+                    <a  class=" menuselect" href="#contact"><i class="fa fa-trophy" aria-hidden="true"></i> &nbsp;&nbsp;Rewards</a>
+                    <a class="menuselect" href="#about"><i class="fa fa-wrench" aria-hidden="true"></i> &nbsp;&nbsp;Tools & Calculator</a>
+                </div>
+            </div>
+            <!--left side ends-->
+            <!--right side starts here-->
+
+              <div class="col-sm-11 col-md-9">
+                    <div class="row right-side-main-row">
+                        <div class="col-sm-12 col-md-10 right-side-main-col">
+                            
+                            <div class="row right-side-inner-main-row">
+                                <div class="col-sm-11 right-side-inner-main-col">
+                                    
+                                  <div class="row first-row">
+                                    <div id="details" class="col-sm-12 first-col">
+                                        DETAILS
+                                    </div>
+                                  </div>
+                                  <form action="#" onsubmit="return validation()">
+                                        <div class="row second-row">
+                                            <div  class="col-sm-5 col-xs-12 second-col-1">
+                                                <input id="firstName" class="inp1"   type="text" name="firstName" placeholder="First Name" >
+                                                
+                                                    <span class="span1" id="first" > </span>
+                                                
+                                                
+                                            </div>
+                                            <div  class="col-sm-5 second-col-2">
+                                                <input id="lastName"  class="inp2"  type="text" name="lastName" placeholder="Last Name" >
+                                                
+                                                    <span class="span2" id="second" > </span>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row third-row t">
+                                            <div  class="col-sm-5 third-col-1">
+                                                <input id="email" class="inp1"   type="text" name="email" placeholder="Email ID" >
+                                                
+                                                    <span class="span1"  id="third" > </span>
+                                                
+                                            </div>
+                                            <div  class="col-sm-5 third-col-2">
+                                                <input id="mobile" class="inp2"   type="text" name="" placeholder=" Mobile No" >
+                                                
+                                                    <span class="span2" id="fourth" > </span>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row fourth-row t">
+                                                <div class="col-sm-3 col-xs-3 fourth-row-col-1">
+                                                <div class="row ">
+                                                        <div  class="col-sm-2 col-xs-1 radio-col-1 ">
+                                                            <input type="radio" id="radio-one" name="switch-one" />
+                                                        </div>
+                                                        <div  class="col-sm-10 col-xs-9">
+                                                            <label class="label1" for="radio-one">Physical copy 
+                                                            </label>
+                                                        </div> 
+                                                </div>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-3 fourth-row-col-2">
+                                                    <div class="row ">
+                                                        <div  class="col-sm-2 col-xs-1 radio-col-2">
+                                                            <input type="radio" id="radio-two" name="switch-one" />
+                                                        </div>
+                                                        <div  class="col-sm-10 col-xs-9">
+                                                            <label class="label2" for="radio-two">Digital copy 
+                                                            </label>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <div class="row fifth-row">
+                                            <div  class="col-sm-12 fifth-col">
+                                                <input id="address" class="inp3"   type="text" name="" placeholder="Line 1" >
+                                                
+                                                    <span class="span1" id="fifth" > </span>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row sixth-row t1">
+                                            <div  class="col-sm-5 sixth-col-1">
+                                                <input id="district"  class="inp1"  type="text" name="" placeholder="District" >
+                                                
+                                                    <span class="span1" id="sixth" > </span>
+                                                
+                                            </div>
+                                            <div  class="col-sm-5 sixth-col-2">
+                                                <input id="city" class="inp2"  type="text" name="" placeholder="City / Town / Village" >
+                                                
+                                                    <span class="span2" id="seventh" > </span>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row seventh-row t">
+                                            <div  class="col-sm-5 seventh-col-1">
+                                                <input id="pincode" class="inp1"   type="text" name="" placeholder="Pin code" >
+                                                
+                                                    <span class="span1" id="eighth" > </span>
+                                                
+                                            </div>
+                                            <div  class="col-sm-5 seventh-col-2">
+                                                <input id="state" class="inp2"  type="text" name="" placeholder="State" >
+                                                
+                                                    <span class="span2" id="ninth" > </span>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row eight-row t">
+                                            <div  class="col-sm-2 eight-col">
+                                                <input type="submit" name="submit" value="submit" class="btn " 	autocomplete="off">
+                                            </div>
+                                        </div>
+                                   </form>
+        
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+              </div>
+
+
+            <!--right side ends here-->
+        </div>
+
+    </div>
+
+    <script >
+		
+
+		function validation(){
+
+			var firstName = document.getElementById('firstName').value;
+			var lastName = document.getElementById('lastName').value;
+            var email = document.getElementById('email').value;
+            var mobile = document.getElementById('mobile').value;
+            var address = document.getElementById('address').value;
+            var district = document.getElementById('district').value;
+            var city = document.getElementById('city').value;
+            var pincode = document.getElementById('pincode').value;
+            var state = document.getElementById('state').value;
+
+
+
+
+
+			if(firstName == ""){
+				document.getElementById('first').innerHTML =" ** Please fill the required field";
+				return false;
+			}
+			if(!isNaN(firstName)){
+				document.getElementById('first').innerHTML =" ** only characters are allowed";
+				return false;
+			}
+
+            if(lastName == ""){
+				document.getElementById('second').innerHTML =" ** Please fill the required field";
+				return false;
+			}
+			if(!isNaN(lastName)){
+				document.getElementById('second').innerHTML =" ** only characters are allowed";
+				return false;
+			}
+
+            if(email == ""){
+				document.getElementById('third').innerHTML =" ** Please fill the required field";
+				return false;
+			}
+			if(email.indexOf('@') <= 0 ){
+				document.getElementById('third').innerHTML =" ** @ Invalid Position";
+				return false;
+			}
+
+			if((email.charAt(email.length-4)!='.') && (email.charAt(emails.length-3)!='.')){
+				document.getElementById('third').innerHTML =" ** . Invalid Position";
+				return false;
+			}
+
+			if(mobile == ""){
+				document.getElementById('fourth').innerHTML =" ** Please fill the required field";
+				return false;
+			}
+			if(isNaN(mobile)){
+				document.getElementById('fourth').innerHTML =" ** only digits are allowed";
+				return false;
+			}
+			if(mobile.length!=10){
+				document.getElementById('fourth').innerHTML =" ** Number must be 10 digits ";
+				return false;
+			}
+            if(address == ""){
+				document.getElementById('fifth').innerHTML =" ** Please fill the required field";
+				return false;
+			}
+            if(district == ""){
+				document.getElementById('sixth').innerHTML =" ** Please fill the district field";
+				return false;
+			}
+            if(city == ""){
+				document.getElementById('seventh').innerHTML =" ** Please fill the required field";
+				return false;
+			}
+            if(pincode == ""){
+				document.getElementById('eighth').innerHTML =" ** Please fill the required field";
+				return false;
+			}
+			if(isNaN(pincode)){
+				document.getElementById('eighth').innerHTML =" ** only digits are allowed";
+				return false;
+			}
+			if(pincode.length!=6){
+				document.getElementById('eighth').innerHTML =" ** pincode must be 6 digits ";
+				return false;
+			}
+            if(state == ""){
+				document.getElementById('ninth').innerHTML =" ** Please fill the required field";
+				return false;
+			}
+
+		}
+
+	</script>
+    <script>
+
+        const navbar = document.querySelector(".nav")
+        const toggle = navbar.querySelector(".nav__toggle")
+        const sidebar = document.querySelector(".sidebar")
+
+        toggle.addEventListener('click', () => {
+          toggle.classList.toggle('active')
+          sidebar.classList.toggle('active')
+        })
+
+      </script>
+      <script>
+        var header = document.getElementById("all-items");
+        var options = header.getElementsByClassName("menuselect");
+        for (var i = 0; i < options.length; i++) {
+        options[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+        });
+        }
+      </script>
+</body>
+</html>
